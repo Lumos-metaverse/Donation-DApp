@@ -9,9 +9,9 @@ import {
 
 const Home = () => {
 
-    const CHAIN_ID = 11155111;
-    const NETWORK_NAME = "Sepolia";
-    const CURRENCY = "ETH";
+    const CHAIN_ID = 80001;
+    const NETWORK_NAME = "Mumbai";
+    const CURRENCY = "MATIC";
 
     const [walletConnected, setWalletConnected] = useState(false);
     const [account, setAccount] = useState(null);
