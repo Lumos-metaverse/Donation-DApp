@@ -56,10 +56,6 @@ contract DonationCampaign {
         return targetAmount;
     }
 
-    function isTargetReached() public view returns (bool) {
-        return amountReceived >= targetAmount;
-    }
-
     // Functions below makes this contract payable
     receive() external payable {}
 
